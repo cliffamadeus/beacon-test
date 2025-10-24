@@ -71,7 +71,7 @@ export default function HomeLayout() {
   };
 
   const handleLogout = () => {
-    navigate('/'); // Logout action (navigate to login page)
+    navigate('/login'); // Logout action (navigate to login page)
     handleMenuClose();
   };
 
